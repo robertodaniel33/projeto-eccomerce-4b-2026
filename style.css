@@ -1,0 +1,428 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+ 
+.cabecalho {
+    width: 100%;
+    height: 153px;
+    background-color: #00e6dc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+ 
+ 
+
+.ftperfil {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ftperfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ftperfil svg {
+    width: 55px;
+    height: 65px;
+    fill: #9295a1;
+}
+
+
+.barra-pesquisa {
+    width: 46%;
+    height: 55px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #cccccc;
+}
+
+.barra-pesquisa input {
+    border: none;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.barra-pesquisa button {
+    border: none;
+    background-color: #f5f5f5;
+    padding: 0 22px;
+    border-left: 1px solid #cccccc;
+}
+
+ 
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ 
+.menu a {
+    color: #19d8e6;
+    font-size: 25px;
+    transition: 0.2s;
+}
+ 
+.menu a:hover {
+    color: white;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+main {
+    min-height: 600px;
+    background-color: white;
+}
+ 
+.produtos {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.titulo-produtos {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #111;
+}
+ 
+.produto-card {
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+ 
+.produto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+ 
+.produto-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-card .card-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.desconto {
+    color: #00a89d;
+    font-size: 14px;
+}
+
+.btn-comprar {
+    width: 100%;
+    background-color: #00cfc5;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: auto;
+}
+
+.btn-comprar:hover {
+    background-color: #009f98;
+    color: white;
+}
+
+.btn-carrinho {
+    width: 100%;
+    background-color: black;
+    color: #00c5c0;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+
+.btn-carrinho:hover {
+    background-color:  rgb(63, 63, 63);
+    color:  #00c9c0 ;
+}
+
+.oferta {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #df9f3f;
+}
+
+.produtos {
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.titulo-produtos {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #111;
+}
+ 
+.produtoo-card {
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+ 
+.produto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.produto-card .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+ 
+.produto-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.produto-card .card-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.descontoo {
+    color: #df9f3f;
+    font-size: 14px;
+}
+
+.btn-comprarr {
+    width: 100%;
+    background-color: #f1e151;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: auto;
+}
+
+.btn-comprarr:hover {
+    background-color: #c7b407;
+    color: white;
+}
+
+.btn-carrinhoo {
+    width: 100%;
+    background-color: #fffafa;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+
+.btn-carrinhoo:hover {
+    background-color: #c2af07;
+    color: rgb(253, 249, 249);
+} 
+
+.texto {
+    color:  #000000;
+    font-size: 46px;
+    transition: 0.2s;
+}
+
+.tituloh {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #111;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.entregue {
+    width: 100%;
+    background-color: #397427;
+    color: rgb(255, 253, 253);
+    font-weight: 300px;
+    border-radius: 8px;
+    margin-top: auto;
+}
+ 
+.descontooo {
+    color: #36ce08;
+    font-size: 14px;
+}
+
+.btn-vizualizar {
+    width: 100%;
+    background-color: #4ecf27;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: auto;
+}
+
+.btn-vizualizar:hover {
+    background-color: #278f0d;
+    color: white;
+}
+ 
+.container-carrinho {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.04);
+}
+
+.item-carrinho {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1.3fr 1fr;
+    align-items: center;
+    gap: 12px;
+    padding: 22px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.informacoes-produto {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.informacoes-produto img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.informacoes-produto h6 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.informacoes-produto small {
+    font-size: 11px;
+}
+
+.preco, .total-item {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.quantidade {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.quantidade button {
+    width: 27px;
+    height: 27px;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quantidade button:hover {
+    background-color: #25283d;
+    color: white;
+}
+
+.resumo-pedido {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.04);
+}
+
+.linha-resumo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+.total {
+    font-size: 19px;
+    color: #25283d;
+}
+
+.botao-finalizar {
+    background-color: #00cfc5;
+    color: black;
+    padding: 13px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.botao-finalizar:hover {
+    background-color: #009f98;
+    color: white;
+}
+
+ 
